@@ -18,4 +18,4 @@ Console.WriteLine("Input N");
 int n=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 Console.WriteLine("Sum of elements from "+m+ " to " +n+"-> ");
-Console.WriteLine(SumNaturalElements(m,n));
+Console.WriteLine(SumNaturalElements(m,n+1));
